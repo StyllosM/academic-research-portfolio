@@ -1,70 +1,41 @@
-# Soil Potential Variations – Measurements vs Theory
+# BSc Thesis — Soil Potential Variations: Measurements vs Theory
 
-**BSc Thesis | University of Cyprus | 2023–2024**
+**University of Cyprus · Department of Electrical and Computer Engineering · PSM Lab · 2023–2024**  
+**Project type:** Four-student undergraduate group thesis  
+**Technical supervisors:** Dr Charalambos A. Charalambous and Dr Christos Melios  
+**Language of original thesis and presentation:** **Greek**
 
-**Research Laboratory:** Power Systems Modelling (PSM) Lab  
-**Department:** Electrical and Computer Engineering  
-**Project Type:** Undergraduate group thesis (four students)  
-**Supervisors:** Dr Charalambos A. Charalambous and Dr Christos Melios  
-**Original Document Language:** Greek
+## Overview
 
-## Project Overview
+The project examined **soil potential variations caused by DC leakage currents associated with photovoltaic (PV) installations**. Such currents may interfere with nearby buried metallic infrastructure, motivating investigation of how electrical potential varies with location and soil conditions.
 
-This undergraduate research project investigated soil potential variations caused by direct-current (DC) leakage from photovoltaic (PV) installations, focusing on the possible effects on underground metallic infrastructure.
+Our team combined theoretical calculations with laboratory measurements using a scaled experimental setup. We focused on the comparison between predicted and measured soil potentials and on the effect of soil moisture on electrical resistivity.
 
-DC leakage currents from photovoltaic systems can enter the surrounding soil and create electrical potential differences. Such interference is relevant to the assessment of corrosion risks in nearby buried metallic pipelines.
+## Experimental work
 
-The project combined theoretical modelling and laboratory measurements to investigate the spatial distribution of soil potential and the influence of soil moisture on electrical resistivity.
+**Experiment 1 — Theory versus measurement.** The team used a soil-filled experimental model divided into a measurement grid. At different locations, the potential was recorded before and during controlled DC-current injection. The measured voltage differences were compared with theoretical values calculated from a literature-based model using Excel.
 
-## Methodology
+**Experiment 2 — Moisture dependence.** A modified representation of a PV installation was used with multichannel voltage acquisition. The team collected potential readings at several soil-moisture levels and estimated how resistivity and potential distribution changed with moisture.
 
-The research involved two main experimental investigations.
+## Results and interpretation
 
-**Experiment 1 — Theoretical Model Validation**
+- The theoretical and experimental spatial potential distributions followed **broadly similar patterns**, but their numerical values differed, particularly around higher-potential regions. The experiments did not establish perfect agreement with the theoretical model.
+- In the tested setup, estimated soil resistivity decreased from approximately **116 Ω·m at 7.5% moisture** to **15.4 Ω·m at 17.5% moisture**.
+- The work highlighted the sensitivity of electrical measurements to soil composition, environmental conditions and changes in experimental geometry.
 
-A scaled laboratory setup was used to represent the electrical conditions surrounding a photovoltaic installation. The experimental area was divided into a measurement grid, and electrical potential differences were recorded at different positions under a controlled DC current.
+These were measurements on a **scaled laboratory model**, not monitoring data from a commercial PV installation. The project did not measure long-term corrosion rates in operational buried pipelines or deploy a field monitoring system.
 
-The measured values were compared with theoretical predictions calculated using equations obtained from the scientific literature and implemented in Microsoft Excel.
+## My individual contribution
 
-**Experiment 2 — Influence of Soil Moisture**
+This was **collaborative research undertaken by four students**. I participated in the group's research work and was formally responsible for **coordinating and preparing project deliverables**, including documentation, reporting and presentations. The theoretical and experimental results belong to the group rather than to me individually.
 
-A modified experimental setup was used to investigate the effects of varying soil moisture.
+For me, this was an introduction to experimental methods, comparing models with measurements, interpreting discrepancies, and presenting technical research.
 
-Potential measurements were collected using laboratory instrumentation, including a multichannel voltage recorder, at different moisture levels. The measurements were subsequently analysed to estimate changes in soil resistivity and potential distribution.
+## Files
 
-## Main Findings
+- [BSc Thesis - Soil Potential Variations – Measurements Vs Theory.pdf](BSc%20Thesis%20-%20Soil%20Potential%20Variations%20%E2%80%93%20Measurements%20Vs%20Theory.pdf) — Complete thesis, including background, methodology, measured results and discussion (**Greek**).
+- [BSc Thesis Presentation - Soil Potential Variations – Measurements Vs Theory.pptx](BSc%20Thesis%20Presentation%20-%20Soil%20Potential%20Variations%20%E2%80%93%20Measurements%20Vs%20Theory.pptx) — Final presentation with the experimental setup, plots and key findings (**primarily Greek**).
 
-The theoretical and experimental potential distributions showed broadly similar patterns, although numerical discrepancies were observed, particularly around regions with higher potential values.
+## Language note
 
-The moisture experiments showed that increased soil moisture was associated with reduced soil resistivity in the tested setup.
-
-For example, the estimated soil resistivity decreased from approximately **116 Ω·m at 7.5% moisture** to **15.4 Ω·m at 17.5% moisture**.
-
-The results highlighted the importance of accounting for environmental conditions, experimental geometry, and soil properties when evaluating potential distributions around photovoltaic installations.
-
-These findings were obtained from a scaled laboratory model, rather than measurements on a full-scale operational photovoltaic installation.
-
-## My Individual Contribution
-
-This was a collaborative research project undertaken by four undergraduate students.
-
-Alongside participation in the team's research activities, my assigned responsibility was coordinating and preparing project deliverables, including the technical documentation, progress reports, and presentations.
-
-The project provided my first substantial experience with experimental research, theoretical-versus-measured validation, technical reporting, and communicating engineering results.
-
-## Project Files
-
-- **[Undergraduate Thesis V9.0.pdf](Undergraduate%20Thesis%20V9.0.pdf)** — Complete undergraduate thesis, including theoretical background, methodology, experimental measurements, results, and conclusions.
-- **[Presentation Final.pptx](Presentation%20Final.pptx)** — Final project presentation summarizing the experimental investigations and principal findings.
-
-## Language Note
-
-The original thesis and presentation are primarily written in **Greek**, as they were prepared for the undergraduate thesis programme at the University of Cyprus.
-
-This README provides an English summary for international researchers and academic reviewers.
-
-## Scope and Limitations
-
-The project investigated electrical potential distributions and soil-moisture effects using a controlled laboratory setup. It did not implement a full-scale photovoltaic monitoring system or directly measure long-term corrosion rates in operational underground pipelines.
-
-The experimental findings should therefore be interpreted within the scope of the laboratory model and its measurement conditions.
+The original documents were prepared in Greek as part of the University of Cyprus undergraduate programme. This README is an **English project overview**, not a full translation of the thesis.
